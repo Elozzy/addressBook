@@ -1,0 +1,65 @@
+<!doctype <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="navigation">
+            <ul class="nav-list">
+                <li id="js-show-all">Show all Contacts</li>
+                <li id="js-search">Search</li>
+                <li id="js-add-new">Add New Contact</li>
+            </ul>
+        </div>
+        <div id="search-panel" class="panel">
+            <h1>Search Contacts</h1>
+            <form id="search" action="#">
+                <div id="results">
+                  
+              </div>
+                <div>
+                    <label>
+                        <input type="text" name="search" id="search" placeholder="Enter name of contact" />
+                    </label>
+                </div>
+                        <input type="submit" value="Submit" />
+            </form>
+        </div>
+            <div id="contact-panel" class="panel">
+                <form id="contact" action="#">
+                    <h1>Add a new contact</h1>
+                    <div>
+                        <label>
+                            <input type="text" name="person" id="name" placeholder="John Smith" />
+                        </label>
+                        <label>
+                            <input type="text" name="phone" id="name" placeholder="1234567" />
+                        </label>
+                        <label>
+                            <input type="text" name="email" id="name" placeholder="john@example.com" />
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        <div id = "show-panel" class="panel">
+          
+        </div>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
